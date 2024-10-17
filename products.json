@@ -1,0 +1,12 @@
+{
+  "products": [
+      { "price": "39.99 EUR", "short-desc": "VESTITO SOFT TOUCH CON VOLANT", "image": "img/products/img_1.png", "description": "Mt-shirt" },
+      { "price": "39.99 EUR", "short-desc": "Z3D CAMICIA A RIGHE", "image": "img/products/img_2.png", "description": "Mpants" },
+      { "price": "15,00 EUR", "short-desc": "T-SHIRT COTONE", "image": "img/products/img_3.png", "description": "Mt-shirt" },
+      { "price": "29,99 EUR", "short-desc": "PANTALONI ESTIVI", "image": "img/products/img_4.png", "description": "FJackets" },
+      { "price": "49,99 EUR", "short-desc": "GIACCA IN DENIM", "image": "img/products/img_5.png", "description": "Fpants" },
+      { "price": "69,99 EUR", "short-desc": "SCARPE SPORTIVE", "image": "img/products/img_6.png", "description": "Mt-shirt" },
+      { "price": "25,99 EUR", "short-desc": "CINTURA IN PELLE", "image": "img/products/img_7.png", "description": "MBelt" },
+      { "price": "18,99 EUR", "short-desc": "MAGLIETTA ESTIVA", "image": "img/products/img_8.png", "description": "Ft-shirt" }
+  ]
+}

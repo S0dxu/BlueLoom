@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LC</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <a href="#" id="menu-toggle"><i class='bx bx-menu'></i></a>
+
+        <div class="sidebar" id="sidebar">
+            <a href="#" id="close-sidebar"><i class='bx bx-chevron-left'></i></a>
+            <ul>
+                <li>
+                    <a href="#" class="toggle">MEN</a>
+                    <ul class="submenu">
+                        <li><a href="#" class="filter" data-category="M" data-type="t-shirt">T-shirts</a></li>
+                        <li><a href="#" class="filter" data-category="M" data-type="pants">Pants</a></li>
+                        <li><a href="#" class="filter" data-category="M" data-type="jackets">Jackets</a></li>
+                        <li><a href="#" class="filter" data-category="M" data-type="swimwear">Swimwear</a></li>
+                        <li><a href="#" class="filter" data-category="M" data-type="shoes">Shoes</a></li>
+                        <li><a href="#" class="filter" data-category="M" data-type="belts">Belts</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#" class="toggle">WOMEN</a>
+                    <ul class="submenu">
+                        <li><a href="#" class="filter" data-category="W" data-type="t-shirt">T-shirts</a></li>
+                        <li><a href="#" class="filter" data-category="W" data-type="pants">Pants</a></li>
+                        <li><a href="#" class="filter" data-category="W" data-type="jackets">Jackets</a></li>
+                        <li><a href="#" class="filter" data-category="W" data-type="swimwear">Swimwear</a></li>
+                        <li><a href="#" class="filter" data-category="W" data-type="shoes">Shoes</a></li>
+                        <li><a href="#" class="filter" data-category="W" data-type="skirts">Skirts</a></li>
+                        <li><a href="#" class="filter" data-category="W" data-type="bags">Bags</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">SHIPPING</a></li>
+                <li><a href="#">ACCOUNT</a></li>
+                <li><a class="homepage" href="#">HOME PAGE</a></li>
+            </ul>
+        </div>
+        <!-- <div class="search-container">
+            <form action="#" method="GET">
+                <input type="text" placeholder="Magliette..." required>
+                <button type="submit"><i class='bx bx-search'></i></button>
+            </form>
+        </div> -->
+        <div class="dx-box">
+            <a class="list-favourite" href=""></a><i class='bx bx-heart' ></i></a>
+            <a href=""></a><i class='bx bx-shopping-bag' ></i></a>
+        </div>
+    </header>
+
+    <main>
+        <h1 class="title">Bloom</h1>
+        <div class="top">
+            <ul class="cards"></ul>
+        </div>
+
+        <div class="products"></div>
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+<script src="filter.js"></script>
+<script src="sidebar.js"></script>
+<script src="products.js"></script>
+<script src="script.js"></script>
+</html>
